@@ -2,21 +2,45 @@
 Program for increasing followers on Instagram
 
 ▶ Linux: 
+
+
 git clone https://github.com/new92/InstaFollow
+
+
 cd InstaFollow
+
+
 python3 InstaFollow.py
 
 ▶ Windows:
+
+
 git clone https://github.com/new92/InstaFollow
+
+
 cd InstaFollow
+
+
 python3 InstaFollow.py
 
 ▶ Termux:
+
+
 pkg upgrade && pkg update
+
+
 pkg install git
+
+
 pkg install python
+
+
 git clone https://github.com/new92/InstaFollow
+
+
 cd InstaFollow
+
+
 python3 InstaFollow.py
 
 
