@@ -5,6 +5,7 @@ Not for illegal purposes !
 The author is not responsible for any illegal activities carried out using this program
 User's data (such as: username, password) will not be stored or saved ! 
 Will be used only to increase followers of the given account
+The author has no responsibility for any damages caused in the accounts
 """
 
 #Imports
