@@ -1,0 +1,14 @@
+instagrapi
+nmap 
+time
+sniffer
+locale
+pyfiglet 
+platform 
+socket
+requests
+os
+logging
+sys
+geocoder
+Nominatim
