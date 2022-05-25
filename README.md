@@ -10,6 +10,9 @@ git clone https://github.com/new92/InstaFollow
 cd InstaFollow
 
 
+pip3 install requirements.txt
+
+
 python3 InstaFollow.py
 
 ▶ Windows:
@@ -19,6 +22,9 @@ git clone https://github.com/new92/InstaFollow
 
 
 cd InstaFollow
+
+
+pip3 install requirements.txt
 
 
 python3 InstaFollow.py
@@ -39,6 +45,9 @@ git clone https://github.com/new92/InstaFollow
 
 
 cd InstaFollow
+
+
+pip3 install requirements.txt
 
 
 python3 InstaFollow.py
