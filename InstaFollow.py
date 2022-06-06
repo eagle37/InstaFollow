@@ -1,6 +1,6 @@
 """
 Author: @new92
-InstaBot: Program for increasing followers
+InstaFollow: Program for increasing followers
 Not for illegal purposes !
 The author is not responsible for any illegal activities carried out using this program
 User's data (such as: username, password) will not be stored or saved ! 
