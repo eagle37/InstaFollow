@@ -22,12 +22,17 @@ try:
     import os
     import logging
     import sys
+    import crypto
+    import cryptography
     import geocoder
+    import instaloader
+    import getpass
+    from getpass import getpass
     from geopy.geocoders import Nominatim
 except ImportError as imp:
     print("Error ! Please make sure you have installed all the modules !")
     time.sleep(1)
-    print("Please enter the command: pip3 install requirements.txt")
+    print("Please enter the command: pip3 install InstaRequirements.txt")
     time.sleep(1)
     print("And execute again the program")
     time.sleep(1)
@@ -54,8 +59,11 @@ if option == "01" or option == "1":
         print("The data will not be stored or saved")
         time.sleep(2)
         username=input("Please enter your username: ")
+        username=username.lower()
+        username=username.strip()
         time.sleep(1)
         password=input("Please enter your password: ")
+        password=password.strip()
         time.sleep(1)
         clnt=instagrapi.Client()
     except Exception as ex:
@@ -69,7 +77,7 @@ if option == "01" or option == "1":
     print("Please wait while the program is increasing your followers...")
     time.sleep(2)
     print("This process might take some time...")
-    time.sleep(1)
+    time.sleep(2)
     print("To end the process enter Ctrl + C")
     i = 1
     while i > 0:
@@ -122,4 +130,4 @@ else:
     print("Exiting...")
     time.sleep(2)
     quit(0)
-#End of the program
+#End of the Program
