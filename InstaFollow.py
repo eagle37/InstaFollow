@@ -27,6 +27,7 @@ try:
     import geocoder
     import instaloader
     import getpass
+    import re
     from getpass import getpass
     from geopy.geocoders import Nominatim
 except ImportError as imp:
@@ -70,12 +71,17 @@ if option == "01" or option == "1":
         print("Error !")
         print(ex)
     try:
-        clnt.login(username,password)
+        login = clnt.login(username,password)
+        if login == True:
+            print("Please wait while the program is increasing your followers...")
+            time.sleep(2)
+        else:
+            print("Can't login to the account !")
+            time.sleep(2)
+            print("Please check the username and/or the password !")
     except Exception as e:
         print("Error !")
         print(e)
-    print("Please wait while the program is increasing your followers...")
-    time.sleep(2)
     print("This process might take some time...")
     time.sleep(2)
     print("To end the process enter Ctrl + C")
