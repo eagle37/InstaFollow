@@ -60,10 +60,18 @@ if option == "01" or option == "1":
         print("The data will not be stored or saved")
         time.sleep(2)
         username=input("Please enter your username: ")
+        while username == " " or username == "":
+            print("You must enter a username !")
+            time.sleep(1)
+            username=input("Please enter your username: ")
         username=username.lower()
         username=username.strip()
         time.sleep(1)
         password=input("Please enter your password: ")
+        while password == " " or password == "":
+            print("You must enter a password !")
+            time.sleep(1)
+            password=input("Please enter your password: ")
         password=password.strip()
         time.sleep(1)
         clnt=instagrapi.Client()
