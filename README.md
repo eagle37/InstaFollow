@@ -1,4 +1,4 @@
-# InstaFollow
+<h1>InstaFollow</h1>
 Program for increasing followers on Instagram
 
 ## Linux: 
