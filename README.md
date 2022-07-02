@@ -1,56 +1,65 @@
 # InstaFollow
 Program for increasing followers on Instagram
 
-▶ Linux: 
+## Linux: 
 
 
-git clone https://github.com/new92/InstaFollow
+    $ git clone https://github.com/new92/InstaFollow
 
 
-cd InstaFollow
+    $ cd InstaFollow
 
 
-pip3 install requirements.txt
+    $ pip3 install requirements.txt
 
 
-python3 InstaFollow.py
+    $ python3 InstaFollow.py
 
-▶ Windows:
-
-
-git clone https://github.com/new92/InstaFollow
+## Windows:
 
 
-cd InstaFollow
+▶️WITH GIT: 
+
+    $ git clone https://github.com/new92/InstaFollow
+
+    $ cd InstaFollow
+
+    $ pip3 install -r requirements.txt
+
+    $ python3 InstaFollow.py
+
+## Termux:
 
 
-pip3 install requirements.txt
+    $ pkg upgrade && pkg update
 
 
-python3 InstaFollow.py
-
-▶ Termux:
+    $ pkg install git
 
 
-pkg upgrade && pkg update
+    $ pkg install python
+    
+    
+    $ pkg install ncurses-utils
+    
+    
+    $ pkg install tsu
 
 
-pkg install git
+    $ git clone https://github.com/new92/InstaFollow
 
 
-pkg install python
+    $ cd InstaFollow
 
 
-git clone https://github.com/new92/InstaFollow
+    $ pip3 install requirements.txt  
+    
+    OR: 
+    
+    $ sudo pip3 install -r requirements.txt
 
 
-cd InstaFollow
-
-
-pip3 install requirements.txt
-
-
-python3 InstaFollow.py
+    $ python3 InstaFollow.py
 
 
 
