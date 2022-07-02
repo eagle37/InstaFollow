@@ -18,7 +18,7 @@ Program for increasing followers on Instagram
 ## Windows:
 
 
-<h3>▶️<u>WITH GIT:</u></h3> 
+<h3><u>▶️WITH GIT:</u></h3> 
 
     $ git clone https://github.com/new92/InstaFollow
 
