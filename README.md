@@ -18,7 +18,7 @@ Program for increasing followers on Instagram
 ## Windows:
 
 
-▶️ <h3>WITH GIT</h3>: 
+<h3>▶️WITH GIT:</h3> 
 
     $ git clone https://github.com/new92/InstaFollow
 
@@ -28,7 +28,7 @@ Program for increasing followers on Instagram
 
     $ python3 InstaFollow.py
     
-▶️ <h3>WITH GITHUB DESKTOP</h3>:  
+<h3>▶️WITH GITHUB DESKTOP:</h3>  
 
      https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
 
