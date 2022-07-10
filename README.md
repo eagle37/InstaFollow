@@ -17,7 +17,7 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     $ pip3 install requirements.txt
 
 
-    $ python3 InstaFollow.py
+    $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
 
 ## Windows:
 
@@ -30,7 +30,7 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
 
     $ pip3 install -r requirements.txt
 
-    $ python3 InstaFollow.py
+    $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
     
 <h3>▶️WITH GITHUB DESKTOP:</h3>  
 
@@ -67,7 +67,7 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     $ sudo pip3 install -r requirements.txt
 
 
-    $ python3 InstaFollow.py
+    $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
 
 
 
