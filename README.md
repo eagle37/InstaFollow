@@ -1,5 +1,7 @@
 <h1>InstaFollow</h1>
-Program for increasing followers on Instagram. This program can add to your account up to 20 followers per day ! The first time the user uses it, it can add 40 to 50 followers !
+Program for increasing followers on Instagram. With v1 the user can add up to 20 to 25 followers per day ! And the first time the user uses it can add up to 50 to 60 followers !
+But with v2 it can add 30 followers per day, and the first time the user uses it can add 60 to 70 followers !
+
 
 <h2>Download</h2>
 
