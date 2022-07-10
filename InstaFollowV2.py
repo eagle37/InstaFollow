@@ -9,10 +9,7 @@ Will be used only to increase the followers of the given account
 #Imports
 try:
     import instagrapi
-    import nmap 
     import time
-    import sniffer
-    import locale
     import pyfiglet
     import platform
     import socket
@@ -22,16 +19,12 @@ try:
     import instabot
     import instapy
     import sys
-    import crypto
-    import cryptography
-    import geocoder
     import instaloader
     import getpass
     import urllib
-    import re
+    import http
     from getpass import getpass
     from os import system
-    from geopy.geocoders import Nominatim
     from instagrapi import *
 except ImportError as imp:
     print("[!] WARNING: Not all modules used in this program have been installed !")
