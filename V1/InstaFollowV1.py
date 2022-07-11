@@ -9,7 +9,6 @@ Will be used only to increase the followers of the given account
 try:
     import instagrapi 
     import time
-    import locale
     import pyfiglet
     import platform
     import socket
@@ -22,6 +21,8 @@ try:
     import instaloader
     import getpass
     import urllib
+    import http
+    import platform
     from getpass import getpass
     from os import system
     from instagrapi import *
@@ -30,7 +31,10 @@ except ImportError as imp:
     time.sleep(2)
     print("[+] Ignoring Warning...")
     time.sleep(2)
-    system("sudo pip3 install -r requirements.txt")
+    if platform.system == "Windows":
+        system("pip3 install -r requirementsV1.txt")
+    else:
+        system("sudo pip3 install -r requirementsV1.txt")
 #End of Imports
 
 #Logo
