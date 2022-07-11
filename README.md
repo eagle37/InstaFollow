@@ -22,7 +22,7 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     $ cd V2
 
 
-    $ pip3 install requirements.txt
+    $ sudo pip3 install -r requirements.txt
 
 
     $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
@@ -35,6 +35,14 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     $ git clone https://github.com/new92/InstaFollow
 
     $ cd InstaFollow
+    
+    (IF YOU WANT TO USE Version 1 OF THE PROGRAM ENTER:)
+    
+    $ cd V1
+    
+    (ELSE IF YOU WANT TO USE Version2 OF THE PROGRAM ENTER:)
+    
+    $ cd V2
 
     $ pip3 install -r requirements.txt
 
@@ -66,9 +74,17 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
 
 
     $ cd InstaFollow
+    
+    (IF YOU WANT TO USE Version 1 OF THE PROGRAM ENTER:)
+    
+    $ cd V1
+    
+    (ELSE IF YOU WANT TO USE Version2 OF THE PROGRAM ENTER:)
+    
+    $ cd V2
 
 
-    $ pip3 install requirements.txt  
+    $ pip3 install -r requirements.txt  
     
     OR: 
     
