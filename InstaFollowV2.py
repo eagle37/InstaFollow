@@ -23,6 +23,7 @@ try:
     import getpass
     import urllib
     import http
+    import platform
     from getpass import getpass
     from os import system
     from instagrapi import *
@@ -31,7 +32,10 @@ except ImportError as imp:
     time.sleep(2)
     print("[+] Ignoring Warning...")
     time.sleep(2)
-    system("sudo pip3 install -r requirements.txt")
+    if platform.system == "Windows":
+        system("pip3 install -r requirements.txt")
+    else:
+        system("sudo pip3 install -r requirements.txt")
 #End of Imports
 
 #Logo
@@ -94,7 +98,7 @@ if option == "01" or option == "1":
                 clnt.user_follow(FOLLOW[i])
             except Exception as key:
                 print("[!] Unexpected Error !")
-                time.sleep(4)
+                time.sleep(1)
                 print("[+] Exiting...")
                 exit(0)
             print("[+] Following "+str(FOLLOW[i])+"...")
@@ -104,7 +108,7 @@ if option == "01" or option == "1":
                 clnt.user_unfollow(UNFOLLOW[e])
             except Exception as key:
                 print("[!] Unexpected Error !")
-                time.sleep(4)
+                time.sleep(1)
                 print("[+] Exiting...")
                 exit(0)
             print("[+] Unfollowing "+str(UNFOLLOW[e])+"...")
