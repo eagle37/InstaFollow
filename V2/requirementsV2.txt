@@ -1,0 +1,13 @@
+instagrapi
+pyfiglet
+platform
+socket
+requests
+logging
+instabot
+instapy
+instaloader
+getpass
+urllib
+http
+platform
