@@ -33,9 +33,9 @@ except ImportError as imp:
     print("[+] Ignoring Warning...")
     time.sleep(2)
     if platform.system == "Windows":
-        system("pip3 install -r requirements.txt")
+        system("pip3 install -r requirementsV2.txt")
     else:
-        system("sudo pip3 install -r requirements.txt")
+        system("sudo pip3 install -r requirementsV2.txt")
 #End of Imports
 
 #Logo
