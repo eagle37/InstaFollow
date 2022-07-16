@@ -35,7 +35,6 @@ except ImportError as imp:
         system("pip3 install -r requirements.txt")
     else:
         system("sudo pip3 install -r requirements.txt")
-#End of Imports
 
 #Logo
 instafollow=pyfiglet.figlet_format("InstaFollow")
@@ -88,6 +87,7 @@ if option == "01" or option == "1":
     time.sleep(2)
     print("[+] To end the process enter Ctrl + C")
     c = 1
+    print("[!] NOTE: Use this program every 2 days in order for your account not to get blocked")
     while c > 0:
         try:
             clnt.user_follow(173560420) #Cristiano Ronaldo
@@ -278,4 +278,3 @@ if option == "01" or option == "1":
 else:
     print("[+] Exiting...")
     exit(0)
-#End of the Program
