@@ -36,7 +36,6 @@ except ImportError as imp:
         system("pip3 install -r requirements.txt")
     else:
         system("sudo pip3 install -r requirements.txt")
-#End of Imports
 
 #Logo
 instafollow=pyfiglet.figlet_format("InstaFollow")
@@ -92,6 +91,8 @@ if option == "01" or option == "1":
     c = 1
     FOLLOW=['173560420','1436859892','18428658','7719696','451573056','247944034','407964088','460563723','6860189','427553890','26669533','4213518589','12331195','28527810','12281817','208560325','145821237','305701719','217867189','20824486','25025320','787132','260375673','290023231','1269788896','29394004','11830955','6380930','2094200507','9777455']
     UNFOLLOW=['173560420','1436859892','18428658','7719696','451573056','247944034','407964088','460563723','6860189','427553890','26669533','4213518589','12331195','28527810','12281817','208560325','145821237','305701719','217867189','20824486','25025320','787132','260375673','290023231','1269788896','29394004','11830955','6380930','2094200507','9777455']
+    print("[!] NOTE: Use this program every 2 days in order for your account not to get blocked")
+    time.sleep(5)
     while c > 0:
         for i in range(len(FOLLOW)):
             try:
@@ -113,4 +114,3 @@ if option == "01" or option == "1":
                 exit(0)
             print("[+] Unfollowing "+str(UNFOLLOW[e])+"...")
             time.sleep(2)
-#End of the Program
