@@ -10,3 +10,4 @@ instapy
 instaloader
 getpass
 urllib
+webbrowser
