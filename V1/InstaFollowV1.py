@@ -17,6 +17,7 @@ try:
     import logging
     import instabot
     import instapy
+    import webbrowser
     import sys
     import instaloader
     import getpass
@@ -86,6 +87,7 @@ if option == "01" or option == "1":
         print(e)
     time.sleep(2)
     print("[+] To end the process enter Ctrl + C")
+    time.sleep(2)
     c = 1
     print("[!] NOTE: Use this program every 2 days in order for your account not to get blocked")
     while c > 0:
