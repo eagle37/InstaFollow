@@ -11,3 +11,4 @@ getpass
 urllib
 http
 platform
+webbrowser
