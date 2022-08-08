@@ -2,10 +2,10 @@
 ℹ️ Program for increasing followers on Instagram. With v1 the user can add up to 20 to 25 followers per day ! And the first time the user uses it can add up to 50 to 60 followers !
 ℹ️ But with v2 it can add 30 followers per day, and the first time the user uses it can add 60 to 70 followers !
 
+<br>
 
 <h2>Installation: 📥</h2>
 
-<br>
 <br>
 
 ## Linux: 
