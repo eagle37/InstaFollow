@@ -43,6 +43,7 @@ tprint("INSTAFOLLOW",font="tarty1")
 #Main program
 print("\n")
 print("[+] Program for increasing followers on Instagram")
+print("\n")
 print("[+] Github: @new92")
 print("\n")
 print("[1] Increase Followers")
