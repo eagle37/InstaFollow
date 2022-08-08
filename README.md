@@ -1,15 +1,17 @@
-<h1>InstaFollow</h1>
-Program for increasing followers on Instagram. With v1 the user can add up to 20 to 25 followers per day ! And the first time the user uses it can add up to 50 to 60 followers !
-But with v2 it can add 30 followers per day, and the first time the user uses it can add 60 to 70 followers !
+<h1>InstaFollow 🤖</h1>
+ℹ️ Program for increasing followers on Instagram. With v1 the user can add up to 20 to 25 followers per day ! And the first time the user uses it can add up to 50 to 60 followers !
+ℹ️ But with v2 it can add 30 followers per day, and the first time the user uses it can add 60 to 70 followers !
 
 
-<h2>Download</h2>
+<h2>Installation: 📥</h2>
+
+<br>
+<br>
 
 ## Linux: 
 
 
     $ git clone https://github.com/new92/InstaFollow
-
 
     $ cd InstaFollow
     
@@ -21,11 +23,10 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     
     $ cd V2
 
-
-    $ sudo pip3 install -r requirements.txt
-
-
     $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
+
+<br>
+<br>
 
 ## Windows:
 
@@ -43,8 +44,6 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     (ELSE IF YOU WANT TO USE Version2 OF THE PROGRAM ENTER:)
     
     $ cd V2
-
-    $ pip3 install -r requirements.txt
 
     $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
     
@@ -82,14 +81,6 @@ But with v2 it can add 30 followers per day, and the first time the user uses it
     (ELSE IF YOU WANT TO USE Version2 OF THE PROGRAM ENTER:)
     
     $ cd V2
-
-
-    $ pip3 install -r requirements.txt  
-    
-    OR: 
-    
-    $ sudo pip3 install -r requirements.txt
-
 
     $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
 
