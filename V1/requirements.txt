@@ -11,3 +11,4 @@ instaloader
 getpass
 urllib
 webbrowser
+art
