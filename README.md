@@ -47,6 +47,9 @@
 
     $ python3 InstaFollowV[+].py    --> [+] replace this with the version you want to use. Versions: {1,2}
     
+    
+![InstaFollowV1Main](https://user-images.githubusercontent.com/94779840/183412717-79d24774-0d5f-4511-a521-8b4a5d2a4425.png) 
+    
 <h3>▶️WITH GITHUB DESKTOP:</h3>  
 
      https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop
@@ -86,9 +89,7 @@
 
 
 
-![InstaFollowV1Main](https://user-images.githubusercontent.com/94779840/183412717-79d24774-0d5f-4511-a521-8b4a5d2a4425.png)
-
-![InstaFollowV2Main](https://user-images.githubusercontent.com/94779840/183412734-3b6c1ff9-3046-40e0-91c1-8955642b6110.png)
+![InstaFollowV2Following](https://user-images.githubusercontent.com/94779840/183412851-6fffc6e0-f3c4-414f-a3e8-22816aa67e0a.png)
 
 
 
