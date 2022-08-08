@@ -86,6 +86,10 @@
 
 
 
+![InstaFollowV1Main](https://user-images.githubusercontent.com/94779840/183412717-79d24774-0d5f-4511-a521-8b4a5d2a4425.png)
+
+![InstaFollowV2Main](https://user-images.githubusercontent.com/94779840/183412734-3b6c1ff9-3046-40e0-91c1-8955642b6110.png)
+
 
 
 
