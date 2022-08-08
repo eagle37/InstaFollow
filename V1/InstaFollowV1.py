@@ -38,7 +38,7 @@ except ImportError as imp:
         system("sudo pip3 install -r requirements.txt")
 
 #Logo
-tprint("INSTAFOLLOW",font="tarty1")
+tprint("INSTAFOLLOW    V1",font="tarty1")
 
 #Main program
 print("\n")
