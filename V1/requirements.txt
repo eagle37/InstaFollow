@@ -1,5 +1,4 @@
-instagrapi 
-pyfiglet
+instagrapi
 platform
 http
 socket
