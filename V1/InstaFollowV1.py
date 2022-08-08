@@ -51,7 +51,7 @@ print("[2] Exit")
 print("\n")
 option=int(input("[::] Choose an option: "))
 
-while option <= 0 or option > 2:
+while option <= 0 or option > 2 or option == None:
     print("[!] Invalid option !")
     time.sleep(1)
     option=int(input("[::] Please enter again the option: "))
