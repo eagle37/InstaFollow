@@ -7,10 +7,10 @@ Will be used only to increase the followers of the given account
 
 #Imports
 try:
-    import instagrapi 
     import time
-    import pyfiglet
     import platform
+    from os import system
+    import instagrapi
     import socket
     import requests
     import os
@@ -23,52 +23,54 @@ try:
     import getpass
     import urllib
     import http
-    import platform
+    import art
+    from art import tprint
     from getpass import getpass
-    from os import system
     from instagrapi import *
 except ImportError as imp:
     print("[!] WARNING: Not all modules used in this program have been installed !")
     time.sleep(2)
     print("[+] Ignoring Warning...")
-    time.sleep(2)
-    if platform.system == "Windows":
+    time.sleep(1)
+    if platform.system() == "Windows":
         system("pip3 install -r requirements.txt")
     else:
         system("sudo pip3 install -r requirements.txt")
 
 #Logo
-instafollow=pyfiglet.figlet_format("InstaFollow")
-print(instafollow)
+tprint("INSTAFOLLOW",font="tarty1")
 
 #Main program
+print("\n")
+print("[+] Program for increasing followers on Instagram")
 print("[+] Github: @new92")
 print("\n")
-print("[01] Increase Followers")
-print("[02] Exit")
+print("[1] Increase Followers")
+print("[2] Exit")
 print("\n")
-option=input("[::] Choose an option: ")
+option=int(input("[::] Choose an option: "))
 
-while option != "01" and option != "02" and option != "1" and option != "2":
+while option <= 0 or option > 2:
     print("[!] Invalid option !")
     time.sleep(1)
     option=input("[::] Please enter again: ")
-if option == "01" or option == "1":
+if option == 1:
+    time.sleep(1)
     print("[+] The data will not be stored or saved")
     time.sleep(2)
-    username=input("[+] Please enter your username: ")
-    while username == " " or username == "" or len(username) <= 0 or len(username) > 30:
+    username=input("[::] Please enter your username: ")
+    while username == None or len(username) > 30:
         print("[!] Invalid Username !")
         time.sleep(1)
-        username=input("[+] Please enter again your username: ")
+        username=input("[::] Please enter again your username: ")
     username=username.lower()
     username=username.strip()
     time.sleep(1)
-    password=input("[+] Please enter your password: ")
-    while password == " " or password == "" or len(password) <= 0:
+    password=input("[::] Please enter your password: ")
+    while password == None:
         print("[!] Invalid Password !")
         time.sleep(1)
-        password=input("[+] Please enter again your password: ")
+        password=input("[::] Please enter again your password: ")
     password=password.strip()
     time.sleep(1)
     clnt=instagrapi.Client()
@@ -82,8 +84,12 @@ if option == "01" or option == "1":
             print("[!] Login Unsuccessful !")
             time.sleep(2)
             print("[+] Please check the username and/or the password !")
+            time.sleep(1)
+            print("[+] Exiting...")
+            exit(0)
     except Exception as e:
         print("[!] Unexpected Error !")
+        time.sleep(1)
         print(e)
     time.sleep(2)
     print("[+] To end the process enter Ctrl + C")
