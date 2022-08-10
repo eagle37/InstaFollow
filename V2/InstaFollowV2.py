@@ -39,7 +39,7 @@ except ImportError as imp:
         system("sudo pip3 install -r requirements.txt")
 from art import tprint
 #Logo
-tprint("INSTAFOLLOW    V2",font="tarty1")
+print("INSTAFOLLOW    V2")
 
 #Main program
 print("\n")
